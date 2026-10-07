@@ -113,8 +113,8 @@ short = input('Enter short side : ')
 tall = input('Enter tall side : ')
 area = int(short)*int(tall)
 perimeter =2*(int(short)+int(tall))
-print("area: {0}".format(alan))
-print("perimeter: {0}".format(cevre))
+print("area: {0}".format(area))
+print("perimeter: {0}".format(perimeter))
 
 # Program 18
 word = 'mrhuseyin'
@@ -125,7 +125,7 @@ for char in word:
 sumofnumbers=0;
 num1 = input('first number: ')
 num2 = input('second number: ')
-for i in range(int(sayi1)+1,int(sayi2)):
+for i in range(int(num1)+1,int(num2)):
         sumofnumbers+=i
         print("Sum of numbers between {0} and {1} : {2}".format(num1,num2,sumofnumbers))
 
