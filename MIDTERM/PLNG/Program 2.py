@@ -44,6 +44,6 @@ user = input("Input a letter: ")
 find = fullname.find(user)
 
 if user != -1:
-    print("Character Found")
+    print("Character Found at index: ", fullname.find(user))
 else:
     print("Character Not Found")
